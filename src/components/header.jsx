@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../context/Cartcontext';
-import './Header.css';
+import './header.css';
 import { FaHome, FaShoppingCart } from "react-icons/fa";
 import { MdShoppingCartCheckout } from "react-icons/md";
 
