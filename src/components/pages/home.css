@@ -177,7 +177,7 @@ h2{
   .product-grid{
     gap: 2rem;
     padding: 10px;
-    grid-auto-columns: 100px; 
+    grid-auto-columns: 150px; 
   }
   .home-page{
     padding: 0;

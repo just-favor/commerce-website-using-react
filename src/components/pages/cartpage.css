@@ -30,22 +30,8 @@
 
 /* responsive  */
 
-@media (max-width: 768px) {
-  .cart-page {
-    padding: 10px;
-  }
-  .cart-item {
-    padding: 5px 0;
-  }
-  .remove-btn {
-    width: 10%;
-    margin-top: 10px;
-  }
-  .cart-page input {
-    width: 20%;
-  }
-}
-@media (max-width: 480px) {
+
+@media (max-width: 750px) {
   .cart-page {
     padding: 5px;
   }

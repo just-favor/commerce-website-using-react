@@ -18,7 +18,7 @@ function CartPage() {
           {cart.map(item => (
             <div key={item.id} className="cart-item">
               <h3>{item.title}</h3>
-              <p>Price: <span style={{color: 'blue'}}>${item.price}</span></p>
+              <p>Price: <span style={{color: 'crimson'}}>${item.price}</span></p>
               <p>
                 Quantity: 
                 <input
