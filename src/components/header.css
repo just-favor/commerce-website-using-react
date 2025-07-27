@@ -1,0 +1,120 @@
+header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0 0 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.748);
+    backdrop-filter: blur(10px);
+    padding: 2px 0  2px 30px;
+}
+button{
+    padding: 7px 20px;
+    background-color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 1px;
+    border-radius: 100px;
+    color: crimson;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
+}
+#home{
+    color: crimson;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    color: white;
+    background-color: crimson;
+    padding: 5px 0 5px 60px;
+    width: 650px;
+    backdrop-filter: blur(10px);
+    /* border-radius: 50px 0 0 50px ; */
+    clip-path: polygon(60px 0, 100% 0, 100% 100%, 0 100%, 30px 50%);
+}
+.top-nav a{
+    text-decoration: none;
+    margin: 0 1px;
+    padding: 15px 7px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-nav a:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.cart-count-badge{
+    color: crimson;
+    font-size: small;
+    background-color: rgb(255, 255, 255);
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-bottom: auto;
+}
+.dropdown{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        align-items: center;
+        padding: 10px 15px;
+        background-color: crimson;
+    }
+    #home {
+        color: white;
+    }
+    .dropdown {
+        display: block;
+        color: white;
+        display: flex;
+        gap: 25px;
+    }
+    header h1 {
+        font-size: 18px;
+        color: white;
+    }
+    .top-nav {
+        width: 100%;
+        gap: 20px;
+        padding: 10px 15px;
+        clip-path: none;
+        border-radius: 10px;
+        display: none;
+        position: relative;
+    }
+
+    .top-nav a {
+        font-size: 12px;
+        padding: 8px 4px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .cart-count-badge{
+        width: 10px;
+        height: 10px;
+        font-size: x-small;
+        position: absolute;
+        top: 1px;
+        right: 55px;
+    }
+}

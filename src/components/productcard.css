@@ -1,0 +1,124 @@
+.product-card{
+    background-color: rgb(95, 95, 95);
+    color: rgb(35, 35, 35);
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.464);
+}
+.product-card:hover{
+    transform: scale(1.05);
+    /* transform: translateY(-10px); */
+    transition: 0.3s ease-in-out;
+}
+.product-card .description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-btn button{
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    color: white;
+}
+
+.cover{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px;
+    gap: 30px;
+}
+.details{
+    padding: 0 10px;
+    /* border-top: 1px solid black; */
+}
+p{
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}
+img{
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+}
+h3{
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+/* responsive  */
+
+@media (max-width: 600px) {
+    .product-card{
+        width: 100%;
+        height: auto;
+    }
+    .cover{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 80%;
+        height: auto;
+    }
+    h3{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px) {
+    .product-card{
+        width: 100px;
+        height: 150px;
+        border-radius: 5px;
+        padding: 0;
+    }
+    .cover{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 60%;
+        height: 60px;
+        margin: 0;
+    }
+    h3{
+        font-size: 8px;
+        font-weight: normal;
+        margin: 0;
+    }
+    .details .description{
+        font-size: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .c-btn button{
+        width: 15px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .details{
+        padding: 0 ;
+        border-top: none;
+    }
+}
