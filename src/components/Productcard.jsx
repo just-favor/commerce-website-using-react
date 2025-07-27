@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 import { useToast } from "../context/ToastContext";
 import { FaShoppingCart } from "react-icons/fa";
-import "./productCard.css";
+import "./productcard.css";
 
 function ProductCard({ product }) {
   const { addToCart } = useContext(CartContext);
