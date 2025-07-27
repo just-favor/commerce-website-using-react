@@ -5,7 +5,7 @@ import CartPage from './components/pages/cartpage';
 import CheckoutPage from './components/pages/Checkoutpage';
 import ProductDetail from './components/pages/Productdetail';
 import Toast, { ToastProvider } from './context/Toastcontext';
-import Header from './components/Header';
+import Header from './components/header';
 import Footer from './components/footer';
 
 function App() {
