@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { CartContext } from "../context/CartContext";
-import { useToast } from "../context/ToastContext";
+import { CartContext } from "../context/Cartcontext";
+import { useToast } from "../context/Toastcontext";
 import { FaShoppingCart } from "react-icons/fa";
 import "./productcard.css";
 
