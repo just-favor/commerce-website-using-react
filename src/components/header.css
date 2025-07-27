@@ -79,6 +79,7 @@ button{
     }
     #home {
         color: white;
+        font-size: 25px;
     }
     .dropdown {
         display: block;
@@ -104,7 +105,10 @@ button{
         font-size: 12px;
         padding: 8px 4px;
     }
-
+    .icon{
+        font-size: 23px;
+        margin: 0 5px;
+    }
     button {
         padding: 5px 10px;
         font-size: 10px;

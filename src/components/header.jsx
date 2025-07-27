@@ -19,9 +19,9 @@ function Header() {
         <button>Sign in</button>
       </nav>
       <nav className="dropdown">
-      <Link to="/"><FaHome /></Link> {" "}
-        <Link to="/cart"><FaShoppingCart /> {cartCount > 0 && <span className="cart-count-badge">{cartCount}</span>}</Link> {" "}
-        <Link to="/checkout"> <MdShoppingCartCheckout /></Link>
+      <Link to="/"><FaHome className='icon' /></Link> {" "}
+        <Link to="/cart"><FaShoppingCart className='icon' /> {cartCount > 0 && <span className="cart-count-badge">{cartCount}</span>}</Link> {" "}
+        <Link to="/checkout"> <MdShoppingCartCheckout className='icon' /></Link>
       </nav>
     </header>
   );
