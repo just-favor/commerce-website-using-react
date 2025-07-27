@@ -5,7 +5,7 @@ import "./heroslider.css";
 
 const featuredProducts = [
   {
-    image: "/src/assets/JBL high sond headphone.jpeg",
+    image: "https://i.pinimg.com/736x/67/2a/2e/672a2eca2b68c1ab9d960e8a864e3e17.jpg",
     title: "Stylish Headphones",
     tagline: "Experience immersive sound",
     // ctaLink: "/products/headphones",
@@ -17,7 +17,7 @@ const featuredProducts = [
     // ctaLink: "/products/watch",
   },
   {
-    image: "https://i.pinimg.com/1200x/69/37/82/693782a70bc7acfd749f2f47ad564dbf.jpg",
+    image: "https://i.pinimg.com/1200x/3c/20/01/3c200193f5d3045ab1e1a6ef27188a97.jpg",
     title: "Wireless Speaker",
     tagline: "Feel the beat anywhere",
     // ctaLink: "/products/speaker",
