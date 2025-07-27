@@ -1,6 +1,6 @@
 import ProductCard from "../Productcard";
 import { useEffect, useState, useRef } from "react";
-import HeroSlider from "../HeroSlider";
+import HeroSlider from "../heroSlider";
 import "./home.css";
 import Spinner from "../spinner";
 
